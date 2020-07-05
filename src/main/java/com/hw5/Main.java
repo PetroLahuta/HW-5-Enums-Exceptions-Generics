@@ -1,6 +1,6 @@
 package main.java.com.hw5;
 
-import main.java.com.hw5.myList.MyList;
+import main.java.com.hw5.generic.MyList;
 
 public class Main {
 
@@ -14,8 +14,7 @@ public class Main {
         myList.add(122);
         myList.add(12);
 
-
-        System.out.println("Найменше значення = " + myList.printMinValue());
-        System.out.println("Найбільше значення = " + myList.printMaxValue());
+        System.out.println("Min value = " + myList.printMinValue());
+        System.out.println("Max value = " + myList.printMaxValue());
     }
 }

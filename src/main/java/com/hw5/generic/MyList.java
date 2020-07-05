@@ -1,15 +1,18 @@
-package main.java.com.hw5.myList;
+package main.java.com.hw5.generic;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class MyList<T extends Number> {
-    private ArrayList<T> list;
+    List<T> list = new ArrayList();
 
     public MyList() {
+
         list = new ArrayList<T>();
     }
 
     public void add(T data) {
+
         list.add(data);
     }
 
